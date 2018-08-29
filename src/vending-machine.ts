@@ -104,7 +104,7 @@ class VendingMachine {
         return item;
     }
 
-    restock(itemCode: ByteString, data: ProductInterface): void {
+    restock(itemCode: string, data: ProductInterface): void {
         this.inventory[itemCode] = data;
     }
 
